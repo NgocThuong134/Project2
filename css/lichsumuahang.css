@@ -1,0 +1,117 @@
+.tieude {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.search {
+  width: 400px;
+}
+.search input {
+  border: 1px solid blue;
+  outline: none;
+}
+#search-input {
+  width: 300px;
+}
+.bodyy {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.lichsu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+.lichsu input,
+.lichsu select {
+  height: 35px;
+  width: 135px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 20px;
+  border: 1px solid blue;
+  outline: none;
+}
+.lichsu label {
+  font-size: 15px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+table {
+  border: none;
+  width: 100%;
+  padding-top: 10px;
+}
+
+th,
+td {
+  border: none;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+#madonhang {
+  width: 15%;
+}
+#ten {
+  width: 20%;
+  font-weight: bold;
+}
+.tensp {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+#soluong {
+  width: 7%;
+}
+#dongia {
+  width: 8%;
+}
+#giamgia {
+  width: 8%;
+}
+#chuthich {
+  width: 22%;
+}
+#tongtien {
+  width: 10%;
+  font-weight: bold;
+}
+#chucnang {
+  width: 10%;
+  text-align: center;
+}
+thead th {
+  background-color: #4caf50;
+  position: sticky;
+  top: 80px;
+  z-index: 11;
+}
+.highlighted-row {
+  background-color: lightblue;
+  line-height: 20px;
+}
+.chucnang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.chucnang button {
+  height: 25px;
+  width: 70px;
+  padding: 3px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}

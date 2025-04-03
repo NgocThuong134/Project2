@@ -1,0 +1,173 @@
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
+
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info form {
+    padding: 10px;
+}
+
+.contact-info label {
+    padding: 5px !important;
+}
+
+.contact-info input {
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 5px;
+    outline: none;
+}
+
+.contact-info textarea {
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 10px;
+    outline: none;
+}
+
+.contact-info input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+}
+
+/* plus sign */
+.sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign i {
+    width: 30px;
+    transform: scale(1.7);
+}
+
+.bx.bxl-facebook {
+    color: white;
+}
+
+.bx.bxl-instagram {
+    color: white;
+}
+
+.bx.bx-envelope {
+    color: red;
+}
+
+.bx.bx-phone {
+    color: white;
+}
+
+.bx.bxl-twitter {
+    color: white;
+}
+
+/* text */
+.text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+
+/* hover effect on button width */
+.Btn:hover {
+    width: 180px;
+    border-radius: 40px;
+    transition-duration: .3s;
+}
+
+.Btn:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 10px;
+}
+
+/* hover effect button's text */
+.Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+}
+
+/* button click effect*/
+.Btn:active {
+    transform: translate(2px, 2px);
+}
+.vitri h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.vitri iframe {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
